@@ -1,0 +1,26 @@
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.promise-list li{
+    list-style-type: none;
+    padding: 3px;
+    text-align: center;
+    color: var(--GrayishBlueText);
+}
+
+.promise-list li::before {
+    content: url(../images/icon-check.svg);
+    margin-right: 10px;
+}
+
+.trial-btn {
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: var(--DarkDesaturatedBlueTextCTABackground);
+    color: var(--GrayishBlueText);
+    text-align: center;
+    cursor: pointer;
+}

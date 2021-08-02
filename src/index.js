@@ -6,8 +6,10 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className='header-wrapper'>
     <h1 className='text-header'>Simple, traffic-based pricing</h1>
     <div className='sub-text'>Sign-up for our 30-day trial. No credit card required.</div>
+    </div>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

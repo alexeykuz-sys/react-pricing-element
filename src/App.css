@@ -1,5 +1,33 @@
 .card-body{
   background: var(--WhitePricingComponentBackground);
-  width: 400px;
+  /* width: 350px; */
+  border: 2px solid gold;
   height: 400px;
+  align-items: center;
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+}
+
+.toggle-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.discount {
+  background-color: var(--LightGrayishRedDiscountBackground);
+  color: var(--LightRedDiscountText);
+  padding: 5px 13px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.text {
+  color: var(--GrayishBlueText);
+  font-size: 12px;
+  font-weight: 600;
 }
