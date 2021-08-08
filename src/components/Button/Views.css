@@ -1,0 +1,10 @@
+
+.page-views {
+    color: var(--GrayishBlueText);
+    font-size: 18px;
+    text-transform:uppercase;
+    font-weight: 600;
+    order: 1;
+    letter-spacing: 2px;
+    margin: 20px;
+}

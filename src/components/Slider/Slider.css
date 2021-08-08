@@ -1,4 +1,4 @@
-.slide-wrapper {
+.slider-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@
     margin: 20px;
 }
 
-.cost-amount {
+.range-slider-value {
     color: var(--DarkDesaturatedBlueTextCTABackground);
     font-size: 20px;
     font-weight: 800;
@@ -25,22 +25,50 @@
     order: 3;
 }
 
-.cost-amount span{
+.range-slider-value span{
     color: var(--GrayishBlueText);
     font-size: 14px;
     padding-left: 20px;
     font-weight: 600;
 }
 
-.slide-container {
+.slider-container {
     order: 2;
     width: 100%;
 }
 
+
+.label-slider {
+	height: 0;
+	width: 0;
+	display: none;
+}
+
 .slider{
+    -webkit-appearance: none;
     width: 100%;
-    height: 25px; 
+    height: 10px;
+    border-radius: 12px; 
     background:var(--LightGrayishBlueEmptySliderBar);
     outline: none; 
-    
+}
+
+
+.slider::-webkit-slider-thumb {
+    background: url(../images/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-color: var(--softCyanFullSliderBar);
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    border-radius: 100%;
+    background-position: center;
+    width: 35px; /* Set a specific slider handle width */
+    height: 35px; /* Slider handle height */
+    /* background: #04AA6D; Green background */
+    cursor: pointer; /* Cursor on hover */
+    transition: background .15s ease-in-out;
+}
+
+.slider:active::-webkit-slider-thumb{
+    background: var(--StrongCyanSliderBackround);
 }

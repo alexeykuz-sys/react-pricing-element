@@ -8,7 +8,7 @@ const Toggle = ()=> {
         <div className='toggle-wrapper'>
             <div className='text'>Monthly Billing</div>
             <div className='toggle-switch'>
-                <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+                <input type="checkbox" id="switch" /><label htmlFor="switch">Toggle</label>
             </div>
             <div className='text'>Yearly Billing</div>
             <Card className='discount'>-25%</Card>
