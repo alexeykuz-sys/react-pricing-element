@@ -4,7 +4,7 @@ import '../Button/Views.css'
 
 const Views = ({sliderValue}) => {
 
-    const [pageview, setPageview] = useState('100k')
+    const [pageview, setPageview] = useState('10k')
 
     useEffect(() => {
         const viewsList = ["10k", "50k", "100k", "500k", "1M"];
