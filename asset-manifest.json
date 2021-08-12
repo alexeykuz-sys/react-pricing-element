@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-pricing-element/static/css/main.24fca7fd.chunk.css",
+    "main.js": "/react-pricing-element/static/js/main.748821bf.chunk.js",
+    "main.js.map": "/react-pricing-element/static/js/main.748821bf.chunk.js.map",
+    "runtime-main.js": "/react-pricing-element/static/js/runtime-main.f9bb71bd.js",
+    "runtime-main.js.map": "/react-pricing-element/static/js/runtime-main.f9bb71bd.js.map",
+    "static/js/2.cc7adfdb.chunk.js": "/react-pricing-element/static/js/2.cc7adfdb.chunk.js",
+    "static/js/2.cc7adfdb.chunk.js.map": "/react-pricing-element/static/js/2.cc7adfdb.chunk.js.map",
+    "static/js/3.2332896d.chunk.js": "/react-pricing-element/static/js/3.2332896d.chunk.js",
+    "static/js/3.2332896d.chunk.js.map": "/react-pricing-element/static/js/3.2332896d.chunk.js.map",
+    "index.html": "/react-pricing-element/index.html",
+    "static/css/main.24fca7fd.chunk.css.map": "/react-pricing-element/static/css/main.24fca7fd.chunk.css.map",
+    "static/js/2.cc7adfdb.chunk.js.LICENSE.txt": "/react-pricing-element/static/js/2.cc7adfdb.chunk.js.LICENSE.txt",
+    "static/media/Button.css": "/react-pricing-element/static/media/icon-check.83c38a48.svg",
+    "static/media/Slider.css": "/react-pricing-element/static/media/icon-slider.cbca35e0.svg",
+    "static/media/index.css": "/react-pricing-element/static/media/pattern-circles.9f6ed14b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9bb71bd.js",
+    "static/js/2.cc7adfdb.chunk.js",
+    "static/css/main.24fca7fd.chunk.css",
+    "static/js/main.748821bf.chunk.js"
+  ]
+}
