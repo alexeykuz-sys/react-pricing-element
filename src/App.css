@@ -1,10 +1,8 @@
 .card-body{
   background: var(--WhitePricingComponentBackground);
-  /* width: 350px; */
-  border: 2px solid gold;
   height: 400px;
   align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   flex-direction: column;
 }

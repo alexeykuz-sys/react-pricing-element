@@ -7,7 +7,7 @@ import Slider from './components/Slider/Slider';
 
 function App() {
 
-  const [checked, setChecked] = useState('false')
+  const [checked, setChecked] = useState(null)
   
   const checkHandler=(isChecked)=>{
     setChecked(isChecked)

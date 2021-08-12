@@ -9,7 +9,7 @@ const Views = ({sliderValue}) => {
     useEffect(() => {
         const viewsList = ["10k", "50k", "100k", "500k", "1M"];
         setPageview(viewsList[sliderValue]);
-      },[sliderValue]);
+    },[sliderValue]);
 
     return (  
             <div className='page-views'>
